@@ -40,8 +40,8 @@ public class Main {
          */
         System.out.println("Задача 1/2/3");
         int i = 0;
-        double max = -1;
-        double min = 200001;
+        double max = arr[0];
+        double min = arr[0];
         int summ = 0;
         for (i = 0; i < arr.length; i++) {
             summ = summ + arr[i];
